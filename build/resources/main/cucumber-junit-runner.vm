@@ -1,0 +1,18 @@
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+#set( $condition = $flagSOutline)
+@RunWith(Cucumber.class)
+@CucumberOptions(strict = $strict,
+#if ($condition)
+    features = {"$featureFile"},
+#else
+    features = {"$featureFile"},
+    tags = {$tags},
+#end
+    plugin = {$reports, "pretty"},
+    monochrome = ${monochrome},
+    glue = { $glue })
+public class $className {
+}

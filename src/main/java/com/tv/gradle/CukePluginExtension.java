@@ -1,7 +1,5 @@
 package com.tv.gradle;
 
-import java.io.File;
-
 public class CukePluginExtension {
 
     private boolean useReRun;
@@ -14,7 +12,7 @@ public class CukePluginExtension {
     private String namingPattern = "Parallel{c}IT";
     private boolean filterFeaturesByTags = false;
     private boolean filterScenarioAndOutlineByLines = true;
-    private File outputDirectory = new File("${project.build.directory}/generated-test-sources/cucumber");
+    private String outputDirectory = "${project.build.directory}/generated-test-sources/cucumber";
     private String glue = "steps";
     private String tags;
     private String format = "json";
@@ -103,11 +101,11 @@ public class CukePluginExtension {
         this.filterFeaturesByTags = filterFeaturesByTags;
     }
 
-    public File getOutputDirectory() {
+    public String getOutputDirectory() {
         return outputDirectory;
     }
 
-    public void setOutputDirectory(File outputDirectory) {
+    public void setOutputDirectory(String outputDirectory) {
         this.outputDirectory = outputDirectory;
     }
 

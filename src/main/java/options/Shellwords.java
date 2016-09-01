@@ -5,11 +5,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Copyright (c) 2008-2014 The Cucumber Organisation
- * <p/>
- * Copy of Cucumber Shellwords
- */
 public class Shellwords {
     private static final Pattern SHELLWORDS_PATTERN = Pattern.compile("[^\\s']+|'([^']*)'");
 

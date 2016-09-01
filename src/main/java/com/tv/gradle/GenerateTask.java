@@ -26,17 +26,19 @@ public class GenerateTask extends DefaultTask {
 
         try {
             CukePluginExtension extension = getProject().getExtensions().findByType(CukePluginExtension.class);
-            File outputDirectory = extension.getOutputDirectory();
+//            File outputDirectory = extension.getOutputDirectory();
+            String outputDirectory = extension.getOutputDirectory();
             String featuresDirectory = extension.getFeaturesDirectory();
 
 //            if (!new File(featuresDirectory).exists()) {
 //                throw new TaskExecutionException("Features directory does not exist");
 //            }
+
             if (extension.getRetryCount() > 0) {
                 extension.setUseReRun(true);
             }
 
-            recreateOutputDirectory(extension);
+            recreateOutputDirectory(extension.getOutputDirectory());
 
             final OverriddenCucumberOptionsParameters overriddenParameters =
                     overrideParametersWithCucumberOptions(extension);
@@ -55,7 +57,7 @@ public class GenerateTask extends DefaultTask {
                     classNamingScheme,
                     rerunOptionsParameters);
 
-            fileGenerator.generateCucumberItFiles(outputDirectory);
+            fileGenerator.generateCucumberItFiles(new File(outputDirectory));
 
 
 //            project.addTestCompileSourceRoot(outputDirectory.getAbsolutePath());
@@ -70,15 +72,15 @@ public class GenerateTask extends DefaultTask {
     }
 
 
-    private void recreateOutputDirectory(CukePluginExtension extension) {
-        if (extension.getOutputDirectory().exists()) {
-            File[] files = extension.getOutputDirectory().listFiles();
+    private void recreateOutputDirectory(String directory) {
+        if (new File(directory).exists()) {
+            File[] files = new File(directory).listFiles();
             for (File file : files) {
                 file.delete();
             }
-            extension.getOutputDirectory().delete();
+            new File(directory).delete();
         }
-        extension.getOutputDirectory().mkdirs();
+        new File(directory).mkdirs();
     }
 
     /**

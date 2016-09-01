@@ -10,11 +10,6 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 
-/**
- * Copyright (c) 2008-2014 The Cucumber Organisation
- * <p/>
- * Fork of https://github.com/cucumber/cucumber-jvm/blob/master/core/src/main/java/cucumber/runtime/RuntimeOptions.java
- */
 public class RuntimeOptions {
     static String usageText;
 
@@ -27,24 +22,10 @@ public class RuntimeOptions {
     private final List<String> featurePaths = new ArrayList<String>();
     private SnippetType snippetType;
 
-    /**
-     * Create a new instance from a string of options, for example:
-     * <p/>
-     * <pre>"--name 'the fox' --plugin pretty --strict"</pre>
-     *
-     * @param argv the arguments
-     */
     public RuntimeOptions(final String argv) {
         this(Shellwords.parse(argv));
     }
 
-    /**
-     * Create a new instance from a list of options, for example:
-     * <p/>
-     * <pre>Arrays.asList("--name", "the fox", "--plugin", "pretty", "--strict");</pre>
-     *
-     * @param argv the arguments
-     */
     public RuntimeOptions(List<String> argv) {
 
         argv = new ArrayList<String>(argv); // in case the one passed in is unmodifiable.

@@ -17,7 +17,8 @@ Usage
 
 Add the following to your build script
 
-```buildscript {
+```
+buildscript {
   repositories {
     maven {
       url "https://plugins.gradle.org/m2/"
@@ -28,14 +29,18 @@ Add the following to your build script
   }
 }
 
-apply plugin: "com.tv.gradle.cukeGenerator"```
+apply plugin: "com.tv.gradle.cukeGenerator"
+```
 
 And then you can add a task as below to genrate the runner classes
 
-```task cukeGenerator(type: com.tv.gradle.GenerateTask) {
+```
+task cukeGenerator(type: com.tv.gradle.GenerateTask)
+{
     cukeParallelPlugin.tags = "smoke"
     cukeParallelPlugin.outputDirectory = "${project.projectDir}/src/test/java/generated-test-sources/cucumber"
     cukeParallelPlugin.cucumberOutputDir = "${project.projectDir}/target/cucumber-parallel"
-}```
+}
+```
 
 

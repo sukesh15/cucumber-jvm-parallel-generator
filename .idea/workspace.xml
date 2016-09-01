@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a5e652-3382-4aa5-8ee2-d5242350f668" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadMe.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/META-INF/gradle-plugins/cukeItGenerator-plugin.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/gradle-plugins/cukeItGenerator-plugin.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tv/gradle/CukePluginExtension.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tv/gradle/CukePluginExtension.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tv/gradle/GenerateTask.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tv/gradle/GenerateTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/gherkin/TokenScanner.class" afterPath="$PROJECT_DIR$/build/classes/main/gherkin/TokenScanner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/options/RuntimeOptions.class" afterPath="$PROJECT_DIR$/build/classes/main/options/RuntimeOptions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/options/Shellwords.class" afterPath="$PROJECT_DIR$/build/classes/main/options/Shellwords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/CukeIT-Parallel-Generator-1.0.0.jar" afterPath="$PROJECT_DIR$/build/libs/CukeIT-Parallel-Generator-1.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator.iml" afterPath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/CukePluginExtension.java" afterPath="$PROJECT_DIR$/src/main/java/com/tv/gradle/CukePluginExtension.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/GenerateTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/tv/gradle/GenerateTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gherkin/TokenScanner.java" afterPath="$PROJECT_DIR$/src/main/java/gherkin/TokenScanner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/options/RuntimeOptions.java" afterPath="$PROJECT_DIR$/src/main/java/options/RuntimeOptions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/options/Shellwords.java" afterPath="$PROJECT_DIR$/src/main/java/options/Shellwords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.md" afterPath="$PROJECT_DIR$/ReadMe.md" />
     </list>
     <ignored path="CukeIT-Parallel-Generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,8 +72,8 @@
       <file leaf-file-name="CukePluginExtension.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tv/gradle/CukePluginExtension.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="105">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
                 <element signature="e#1879#1880#0" expanded="true" />
                 <element signature="e#1919#1920#0" expanded="true" />
@@ -112,7 +89,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186">
+            <state relative-caret-position="150">
               <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
@@ -139,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="309">
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -549,8 +526,8 @@
         <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/tv/gradle/GenerateTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tv/gradle/CukePluginExtension.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -1431,18 +1408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tv/gradle/GenerateTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tv/gradle/CukePluginExtension.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="e#1879#1880#0" expanded="true" />
             <element signature="e#1919#1920#0" expanded="true" />
@@ -1454,18 +1423,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="309">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
+        <state relative-caret-position="150">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tv/gradle/GenerateTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
           <folding />
         </state>
       </provider>

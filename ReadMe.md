@@ -1,4 +1,4 @@
-cucumber-jvm-parallel-plugin
+cucumber-jvm-parallel-generator
 ============================
 
 The project is motivated from a maven plugin in the similar name by

@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a5e652-3382-4aa5-8ee2-d5242350f668" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/Counter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/gradle-plugins/com.testvagrant.gradle.cukeGenerator.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/Counter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/gradle-plugins/com.tv.gradle.cukeGenerator.properties" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/CukeGeneratorPlugin.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/CukeGeneratorPlugin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/CukePluginExtension.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/CukePluginExtension.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/GenerateTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/GenerateTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/CucumberItGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/CucumberItGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/OverriddenCucumberOptionsParameters.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/OverriddenCucumberOptionsParameters.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/OverriddenRerunOptionsParameters.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/OverriddenRerunOptionsParameters.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/ClassNamingScheme.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/ClassNamingScheme.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/ClassNamingSchemeFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/ClassNamingSchemeFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/FeatureFileClassNamingScheme.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/FeatureFileClassNamingScheme.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/OneUpCounter.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/OneUpCounter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/PatternNamingScheme.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/PatternNamingScheme.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/SimpleClassNamingScheme.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/SimpleClassNamingScheme.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tv/gradle/generate/name/TagNamingScheme.java" afterPath="$PROJECT_DIR$/src/main/java/com/testvagrant/gradle/generate/name/TagNamingScheme.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/CukeIT-Parallel-Generator_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="76a5e652-3382-4aa5-8ee2-d5242350f668" name="Default" comment="" />
     <ignored path="CukeIT-Parallel-Generator.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -148,8 +127,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="459">
+              <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -1463,8 +1442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="459">
+          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
           <folding />
         </state>
       </provider>

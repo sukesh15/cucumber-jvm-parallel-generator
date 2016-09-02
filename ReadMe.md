@@ -46,6 +46,7 @@ task cukeGenerator(type: GenerateTask)
 Here is list of of all the properties and their default values for the GenerateTask, that can be overwritten.
 -------------------------------------------------------------------------------------------------------------
 
+```
 featuresDirectory = "src/test/resources/features"
 encoding = "UTF-8"
 cucumberOutputDir = "target/cucumber-parallel"
@@ -63,5 +64,6 @@ monochrome = false
 cucumberOptions = "cucumber.options"
 useReRun = false
 retryCount = 0
+```
 
 

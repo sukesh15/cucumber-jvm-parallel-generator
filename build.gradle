@@ -61,7 +61,7 @@ pluginBundle {
 
     plugins {
         cukeParallelPlugin {
-            id = 'com.tv.gradle.cukeGenerator'
+            id = 'com.testvagrant.gradle.cukeGenerator'
             displayName = 'Cucumber-jvm parallel plugin'
         }
     }

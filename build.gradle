@@ -49,7 +49,7 @@ dependencies {
 
 
 
-group = 'com.tv.gradle'
+group = 'com.testvagrant.gradle'
 version = '1.0-SNAPSHOT'
 
 

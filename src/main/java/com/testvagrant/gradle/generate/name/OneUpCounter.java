@@ -1,4 +1,4 @@
-package com.tv.gradle.generate.name;
+package com.testvagrant.gradle.generate.name;
 
 public class OneUpCounter implements Counter {
 

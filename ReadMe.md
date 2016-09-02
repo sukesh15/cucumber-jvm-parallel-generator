@@ -35,12 +35,33 @@ apply plugin: "com.tv.gradle.cukeGenerator"
 And then you can add a task as below to genrate the runner classes
 
 ```
-task cukeGenerator(type: com.tv.gradle.GenerateTask)
+task cukeGenerator(type: GenerateTask)
 {
     cukeParallelPlugin.tags = "smoke"
     cukeParallelPlugin.outputDirectory = "${project.projectDir}/src/test/java/generated-test-sources/cucumber"
     cukeParallelPlugin.cucumberOutputDir = "${project.projectDir}/target/cucumber-parallel"
 }
 ```
+
+Here is list of of all the properties and their default values for the GenerateTask, that can be overwritten.
+-------------------------------------------------------------------------------------------------------------
+
+featuresDirectory = "src/test/resources/features"
+encoding = "UTF-8"
+cucumberOutputDir = "target/cucumber-parallel"
+useTestNG = false
+namingScheme = "simple"
+namingPattern = "Parallel{c}IT"
+filterFeaturesByTags = false
+filterScenarioAndOutlineByLines = true
+outputDirectory = "${project.projectDir}/src/test/java/generated-test-sources/cucumber"
+glue = "stepe"
+tags = "@completed"
+format = "json"
+strict = true
+monochrome = false
+cucumberOptions = "cucumber.options"
+useReRun = false
+retryCount = 0
 
 

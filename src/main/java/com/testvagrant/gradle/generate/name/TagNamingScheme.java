@@ -1,4 +1,4 @@
-package com.tv.gradle.generate.name;
+package com.testvagrant.gradle.generate.name;
 
 /**
  * Created by mankar on 07/06/2016.

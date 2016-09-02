@@ -1,10 +1,10 @@
-package com.tv.gradle.generate;
+package com.testvagrant.gradle.generate;
 
 
 
-import com.tv.gradle.CukePluginExtension;
+import com.testvagrant.gradle.CukePluginExtension;
 import org.gradle.api.tasks.TaskExecutionException;
-import com.tv.gradle.generate.name.ClassNamingScheme;
+import com.testvagrant.gradle.generate.name.ClassNamingScheme;
 
 
 import org.apache.commons.io.FileUtils;

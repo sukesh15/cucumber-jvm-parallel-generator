@@ -1,4 +1,4 @@
-package com.tv.gradle.generate;
+package com.testvagrant.gradle.generate;
 
 /**
  * Created by sugad.mankar.

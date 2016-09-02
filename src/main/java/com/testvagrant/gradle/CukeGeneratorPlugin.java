@@ -1,4 +1,4 @@
-package com.tv.gradle;
+package com.testvagrant.gradle;
 
 
 import org.gradle.api.Project;

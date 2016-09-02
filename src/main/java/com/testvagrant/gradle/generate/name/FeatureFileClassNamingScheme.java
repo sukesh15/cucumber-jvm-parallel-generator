@@ -1,4 +1,4 @@
-package com.tv.gradle.generate.name;
+package com.testvagrant.gradle.generate.name;
 
 import com.google.common.base.CaseFormat;
 import org.apache.commons.io.FilenameUtils;

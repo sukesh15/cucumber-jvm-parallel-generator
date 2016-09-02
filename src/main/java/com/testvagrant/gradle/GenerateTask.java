@@ -1,11 +1,11 @@
-package com.tv.gradle;
+package com.testvagrant.gradle;
 
-import com.tv.gradle.generate.OverriddenCucumberOptionsParameters;
-import com.tv.gradle.generate.OverriddenRerunOptionsParameters;
-import com.tv.gradle.generate.name.OneUpCounter;
-import com.tv.gradle.generate.CucumberItGenerator;
-import com.tv.gradle.generate.name.ClassNamingScheme;
-import com.tv.gradle.generate.name.ClassNamingSchemeFactory;
+import com.testvagrant.gradle.generate.CucumberItGenerator;
+import com.testvagrant.gradle.generate.OverriddenCucumberOptionsParameters;
+import com.testvagrant.gradle.generate.name.ClassNamingSchemeFactory;
+import com.testvagrant.gradle.generate.OverriddenRerunOptionsParameters;
+import com.testvagrant.gradle.generate.name.OneUpCounter;
+import com.testvagrant.gradle.generate.name.ClassNamingScheme;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.TaskAction;
 import org.gradle.api.tasks.TaskExecutionException;
